@@ -9,7 +9,8 @@ export class AppComponent {
   
   pelicula = {
     titulo: 'spiderman',
-    fecha: new Date()
+    fecha: new Date(),
+    presio: 3000
   }
 
 
