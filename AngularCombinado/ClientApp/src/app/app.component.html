@@ -14,7 +14,18 @@ el doble del valor es {{duplicarNumero(3)}}
 <h2>Datos de pelicula (entidad)</h2>
 <div>
   {{pelicula.titulo}}
+  <div>
+    pipe  en mayuscula
+    {{pelicula.titulo |uppercase}}
+  </div>
+  <div>
+    pipe  en minusculas
+    {{pelicula.titulo | lowercase}}
+  </div>
 </div>
 <div>
-  {{pelicula.fecha}}
+  {{pelicula.fecha | date:"dd-MMMM-yyyy" |uppercase}}
+</div>
+<div>
+  {{pelicula.presio | currency}}
 </div>
