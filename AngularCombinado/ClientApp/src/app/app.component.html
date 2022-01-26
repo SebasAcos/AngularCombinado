@@ -1,6 +1,20 @@
-<body>
-  <app-nav-menu></app-nav-menu>
-  <div class="container">
-    <router-outlet></router-outlet>
-  </div>
-</body>
+<p>prueba component.html</p>
+
+<div>
+ interpolación {{title}}
+</div>
+
+<div>
+  prueba de suma: {{2+3}}
+</div>
+<div>
+  llamar funcion de component.ts:
+el doble del valor es {{duplicarNumero(3)}}
+</div>
+<h2>Datos de pelicula (entidad)</h2>
+<div>
+  {{pelicula.titulo}}
+</div>
+<div>
+  {{pelicula.fecha}}
+</div>

@@ -5,5 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'app';
+  title = 'component.ts';
+  
+  pelicula = {
+    titulo: 'spiderman',
+    fecha: new Date()
+  }
+
+
+  duplicarNumero(valor:number):number{
+    return valor * 2;
+  }
 }
