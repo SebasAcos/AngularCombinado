@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularCombinado", "AngularCombinado\AngularCombinado.csproj", "{EBCF32B4-E231-4277-8527-2432DCE6AD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCF32B4-E231-4277-8527-2432DCE6AD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCF32B4-E231-4277-8527-2432DCE6AD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCF32B4-E231-4277-8527-2432DCE6AD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCF32B4-E231-4277-8527-2432DCE6AD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6C656B-9704-44FA-B582-79257F105CC5}
+	EndGlobalSection
+EndGlobal
